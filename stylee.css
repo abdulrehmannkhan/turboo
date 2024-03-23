@@ -202,9 +202,17 @@ img.tttcars {
 .aboutt .col-lg-4.mb-2 p {
     color: black;
 }
+img#logoo {
+    width: 130px;
+}
 
 @media (max-width: 480px){
-    .carousel-inner {
+    img#logoo {
+        width: 100px;
+    }
+    
+    nav.navbar.navbar-expand-lg.bg-secondary.navbar-dark.py-3.py-lg-0.pl-3.pl-lg-5 {
+        padding: 0 20px !IMPORTANT;
     }
     
     .carousel-item.active {
