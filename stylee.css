@@ -195,3 +195,63 @@ img.tttcars {
     color: white;
     font-size: 20px;
 }
+.aboutt p {
+    color: white;
+}
+
+.aboutt .col-lg-4.mb-2 p {
+    color: black;
+}
+
+@media (max-width: 480px){
+    .carousel-inner {
+    }
+    
+    .carousel-item.active {
+        padding: 150px 0;
+    }
+    
+    h1.display-1.text-white.mb-md-4 {
+        font-size: 45px;
+    }
+    
+    img.itemimgg {
+        width: 65%;
+    }
+    
+    .container-fluid.p-0 {
+        margin-bottom: 0 !important;
+    }
+    
+    img.w-75.mb-4 {
+        width: 100% !important;
+    }
+    
+    
+    
+    .container-fluid.py-5.aboutt {
+        margin-bottom: 0 !IMPORTANT;
+        padding-bottom: 0 !important;
+    }
+    
+    .bg-banner.py-5.px-4.text-center {
+        padding: 0 20px !IMPORTANT;
+    }
+    
+    .container-fluid.py-5 {
+        padding: 0;
+    }
+    
+    .container-fluid.py-5 {
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    
+    .px-5.bg-secondary.d-flex.align-items-center.justify-content-between {
+        padding-right: 20px !important;
+    }
+    
+    .px-5.bg-dark.d-flex.align-items-center.justify-content-between {
+        padding-left: 20px !IMPORTANT;
+    }
+} 
