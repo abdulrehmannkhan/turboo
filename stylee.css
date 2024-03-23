@@ -205,8 +205,16 @@ img.tttcars {
 img#logoo {
     width: 130px;
 }
+.aboutt img.tttcars.w-50 {
+    width: 40% !important;
+    border-radius: 25px;
+}
 
 @media (max-width: 480px){
+    .aboutt img.tttcars.w-50 {
+        width: 90% !important;
+        border-radius: 25px;
+    }
     img#logoo {
         width: 100px;
     }
